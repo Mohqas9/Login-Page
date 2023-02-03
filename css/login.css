@@ -1,0 +1,136 @@
+body{
+    background-image: url(wall2.jpg);
+    background-size: cover;
+    padding: 0px;
+    margin: 0px;
+    display: grid;
+    place-items: center;
+    min-height: 100vh;
+}
+
+
+.log{
+    background: linear-gradient(135deg,rgba(255, 255, 255, 0.096),rgba(0, 0, 0, 0.37));
+    width: 300px;
+    height: 400px;
+    position:relative;
+    text-align: center;
+    border: 1px solid rgba(255, 255, 255, 0.356);
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+    border-bottom-left-radius: 15px;
+    border-top-left-radius: 15px;
+    backdrop-filter: blur(2px);
+    box-shadow: 0px 0px 20px 3px rgba(0, 0, 0, 0.486);
+    transition-duration: 2s;
+
+}
+
+.log:hover{
+    box-shadow: 0px 0px 290px 200px rgb(0, 0, 0),0px 0px 290px 200px rgba(0, 0, 0, 0.719) inset;
+    
+}
+
+
+
+form .para{
+    font-size: 30px;
+    color: white;
+    text-shadow: 0px 0px 2px rgb(255, 255, 255), 0 0 8px rgb(0,140,255), 0 0 5px rgb(0, 247, 255);
+  
+}
+
+
+
+.user, .pass{
+    margin: 10px;
+}
+
+.user , .pass{
+    background: none;
+    background-color: rgba(0, 0, 0, 0.103);
+    width: 230px;
+    height: 40px;
+    border: 1px solid rgba(255, 255, 255, 0.363);
+    border-radius: 6px;
+    box-shadow: 0px 0px 7px 0px rgba(0, 0, 0, 0.295) inset;
+    transition-duration: 1s;
+}
+
+input,select,textarea{
+    padding-left: 20px;
+    color: #ffffff;
+}
+
+input:focus,select:focus,textarea:focus{
+    color: rgb(0, 0, 0);
+}
+
+   
+.user:focus, .user:hover {
+    outline: none;
+    border-color: rgba(76, 210, 234, 0.4);
+    background-color: rgba(255, 255, 255, 0.568);
+    box-shadow: 0 0 5px rgb(0, 247, 255),
+                0 0 25px rgb(0, 140, 255)
+   }
+
+
+
+   
+.pass:focus, .pass:hover {
+    outline: none;
+    border-color: rgba(76, 210, 234, 0.4);
+    background-color: rgba(255, 255, 255, 0.527);
+    box-shadow: 0 0 5px rgb(0, 247, 255),
+                0 0 25px rgb(0, 140, 255)
+
+   }
+
+
+
+a{
+    
+    font-size: 13px;
+    text-decoration: none;
+    display: block;
+    margin: 30px;
+    transition-duration: 0.5s;
+    color: rgba(255, 255, 255, 0.973);
+    text-shadow: 1px 1px 5px black, 0 0 25px rgba(0, 0, 255, 0.986), 0 0 5px darkblue;
+  
+}
+
+a:hover{
+    color: rgb(127, 193, 255);
+    text-decoration: none;
+    text-shadow: 0 0 5px rgb(0, 247, 255),
+    0 0 25px rgb(0, 140, 255)
+}
+
+
+.button {
+    width: 190px;
+    padding: 10px 20px;
+    border: none;
+    font-size: 12px;
+    color: #fff;
+    border-radius: 7px;
+    text-transform: uppercase;
+    transition: 0.5s;
+    transition-property: box-shadow;
+    background: rgb(0,140,255);
+    box-shadow: 0 0 25px rgb(0,140,255);
+  }
+
+  .button:hover {
+    box-shadow: 0 0 5px rgb(0,140,255),
+                0 0 25px rgb(0,140,255),
+                0 0 50px rgb(0,140,255),
+                0 0 100px rgb(0,140,255);
+  }
+
+::placeholder{
+    padding-left: 5%;
+    color: rgba(240, 248, 255, 0.822);
+}
